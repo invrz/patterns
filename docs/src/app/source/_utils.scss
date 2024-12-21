@@ -1,0 +1,82 @@
+@import "variables";
+
+// Border Styles
+.border {
+  &--smooth {
+    border-radius: 0.2rem;
+  }
+  &--smoother {
+    border-radius: 0.4rem;
+  }
+  &--rounded {
+    border-radius: 1rem;
+  }
+  &--circular {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+  }
+
+  &--thin {
+    border-width: 1px;
+  }
+  &--medium {
+    border-width: 2px;
+  }
+  &--thick {
+    border-width: 4px;
+  }
+
+  &--solid {
+    border-style: solid;
+  }
+  &--dashed {
+    border-style: dashed;
+  }
+  &--double {
+    border-style: double;
+  }
+  &--dotted {
+    border-style: dotted;
+  }
+
+}
+
+// Padding Utilities
+.padding {
+  &--tiny {
+    padding: $gr033;
+  }
+  &--small {
+    padding: $gr066;
+  }
+  &--medium {
+    padding: $gr102;
+  }
+  &--large {
+    padding: $gr175;
+  }
+}
+
+// Margin Utilities
+.margin {
+  &--tiny {
+    margin: $gr033;
+  }
+  &--small {
+    margin: $gr066;
+  }
+  &--medium {
+    margin: $gr102;
+  }
+  &--large {
+    margin: $gr175;
+  }
+}
+
+// No Borders
+.no-border {
+  border: none;
+}
+.no-decoration {
+  text-decoration: none;
+}
